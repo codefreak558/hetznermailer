@@ -2,7 +2,7 @@
 require '../PHPMailerAutoload.php';
 
 $mail = new PHPMailer;
-$mail->Host = "41.204.200.12";
+$mail->Host = "hostname";
 $mail->Port = 25;
 $mail->SMTPAuth = false;
 $mail->setFrom('email@email.com', 'First Last');
